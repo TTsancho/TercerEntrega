@@ -79,4 +79,14 @@ footer p {
 }
 
 
-
+.zoom-box {
+   
+    width: auto;
+    height: 100px;
+margin: 10px;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom-box:hover {
+    transform: scale(1.5);
+  }
