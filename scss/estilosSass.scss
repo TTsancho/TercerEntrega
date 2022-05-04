@@ -1,7 +1,7 @@
 body {
     background-color: rgba(0, 0, 0, 0.87);
     text-align: center;
-    background-image: url(images/Back3.jpg);
+    background-image: url(/images/Back3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,12 +23,12 @@ nav {
     display: flex;
     flex: center;
    justify-content: center;
-
-   .a {
-        text-decoration: none;
+height: 100px;
+   a {
+        text-decoration: white;
         font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Times New Roman', Times, serif;
 
         .zoom-box {
@@ -36,7 +36,7 @@ nav {
             width: auto;
             height: 100px;
         margin: 10px;
-            transition: transform .2s; /* Animation */
+            transition: transform .5s; /* Animation */
           }
           
           &:hover {
@@ -50,9 +50,9 @@ nav {
 
  
 
-  h1 {
+  h1.titulo {
     font-size: 84px;
-    color: blanchedalmond;
+    @extend %titulos;
     font-family: 'Times New Roman', Times, serif;
     
     }
@@ -80,7 +80,7 @@ nav {
         footer {
             background-color: rgba(0, 0, 0, 0.685);
             height: 100px;
-            footer p {
+             p {
                 text-align: center;
                 padding-bottom: 25px;
                 padding-top: 25px;
@@ -99,4 +99,10 @@ nav {
             }
         }
          
-           
+        @import 'Variables';
+        @import 'General';
+        @import 'operaciones';
+        @import 'condicionales';
+        @import 'maps';
+        @import 'extends';
+        @import 'mixins';
