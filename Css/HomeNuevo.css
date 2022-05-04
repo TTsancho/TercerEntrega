@@ -1,7 +1,7 @@
 body {
   background-color: rgba(0, 0, 0, 0.87);
   text-align: center;
-  background-image: url(images/Back3.jpg);
+  background-image: url(/images/Back3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -9,7 +9,9 @@ body {
 header {
   height: auto;
   width: auto;
-  text-align: center; }
+  text-align: center;
+
+}
 
 nav {
   background-color: rgba(0, 0, 0, 0.301);
@@ -19,20 +21,22 @@ nav {
   margin: auto;
   display: flex;
   flex: center;
-  justify-content: center; }
+  justify-content: center; 
+}
   nav .a {
     text-decoration: none;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Times New Roman', Times, serif; }
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    }
   nav .zoom-box {
     width: auto;
     height: 100px;
     margin: 10px;
     transition: transform .2s;
-    /* Animation */ }
-  nav:hover {
+    }
+  nav a:hover {
     transform: scale(1.5); }
 
 h1 {
@@ -61,14 +65,14 @@ iframe {
 footer {
   background-color: rgba(0, 0, 0, 0.685);
   height: 100px; }
-  footer footer p {
+  footer  p {
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
     font-family: 'Times New Roman', Times, serif; }
-    footer footer p:hover {
+    footer  p:hover {
       transform: scale(1.5); }
-    footer footer p .zoom-box {
+    footer  p .zoom-box {
       width: auto;
       height: 100px;
       margin: 10px;

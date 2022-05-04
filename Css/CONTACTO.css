@@ -1,7 +1,7 @@
 body {
     background-color: rgba(0, 0, 0, 0.87);
     text-align: center;
-    background-image: url(images/Back3.jpg);
+    background-image: url(/images/Back3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,25 @@ nav {
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
-}
+    margin: auto;
+    display: flex;
+    flex: center;
+    justify-content: center; 
+  }
+    nav .a {
+      text-decoration: none;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+    nav .zoom-box {
+      width: auto;
+      height: 100px;
+      margin: 10px;
+      transition: transform .2s;
+      }
+    nav a:hover {
+      transform: scale(1.5); }
 
 main {
     height: 400px;
