@@ -1,110 +1,54 @@
 body {
-    background-color: rgba(0, 0, 0, 0.87);
-    text-align: center;
-    background-image: url(/images/Back3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-header{  
-    height: auto;
-    width: auto;
-    text-align: center;
-   
-}
+  background-color: rgba(0, 0, 0, 0.87);
+  text-align: center;
+  background-image: url(/images/Back3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  body a {
+    text-decoration: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif; }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.301);
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    margin: auto;
-    display: flex;
-    flex: center;
-    justify-content: center; 
-  }
-    nav .a {
-      text-decoration: none;
-      font-size: 20px;
-      padding-left: 20px;
-      padding-right: 20px;
-      }
-    nav .zoom-box {
+  background-color: rgba(0, 0, 0, 0.301);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin: auto;
+  display: flex;
+  flex: center;
+  justify-content: center;
+  height: 100px; }
+  nav a {
+    text-decoration: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif; }
+    nav a .zoom-box {
       width: auto;
       height: 100px;
       margin: 10px;
-      transition: transform .2s;
-      }
+      transition: transform .5s;
+      /* Animation */ }
     nav a:hover {
       transform: scale(1.5); }
 
-main {
-    height: 500px;
-    width: auto;
-   padding: auto;
-    text-align: center;
-    color: rgb(255, 255, 255);
-
-    
-}
-
 footer {
-    background-color: rgba(0, 0, 0, 0.685);
-    height: 100px;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-
-h1 {
-font-size: 84px;
-color: blanchedalmond;
-font-family: 'Times New Roman', Times, serif;
-
-}
-
-p {
-    font-size: 25px;
-    color: blanchedalmond;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-a {
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-text-decoration: underline rgb(146, 21, 204);
-font-family: 'Times New Roman', Times, serif;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-footer p {
+  background-color: rgba(0, 0, 0, 0.685);
+  height: 100px; }
+  footer p {
     text-align: center;
     padding-bottom: 25px;
     padding-top: 25px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-.zoom-box {
-   
-    width: auto;
-    height: 100px;
-margin: 10px;
-    transition: transform .2s; /* Animation */
-  }
-  
-  .zoom-box:hover {
-    transform: scale(1.5);
-  }
+    font-family: 'Times New Roman', Times, serif; }
+    footer p:hover {
+      transform: scale(1.5); }
+    footer p .zoom-box {
+      width: auto;
+      height: 100px;
+      margin: 10px;
+      transition: transform .2s; }

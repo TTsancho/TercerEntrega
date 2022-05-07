@@ -9,6 +9,7 @@
     "build-css":"node-sass --include-path scss scss/Menu.scss  css/MenuNuevo.css" ,
     "build-css":"node-sass --include-path scss scss/ContactoNuevo.scss  css/contactoNuevo.css" ,
     "build-css":"node-sass --include-path scss scss/resena.scss  css/RESENAS.css" ,
+    "build-css":"node-sass --include-path scss scss/Reserva.scss  css/RESERVA.css" ,
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   
   },
