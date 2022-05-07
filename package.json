@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss scss/estilosSass.scss  css/HomeNuevo.css",
+    "build-css":"node-sass --include-path scss scss/Home.scss  css/HomeNuevo.css",
+    "build-css":"node-sass --include-path scss scss/Menu.scss  css/MenuNuevo.css" ,
+    "build-css":"node-sass --include-path scss scss/ContactoNuevo.scss  css/contactoNuevo.css" ,
+    "build-css":"node-sass --include-path scss scss/resena.scss  css/RESENAS.css" ,
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  
   },
   "repository": {
     "type": "git",

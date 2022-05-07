@@ -1,0 +1,21 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100px;
+     p {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        font-family: 'Times New Roman', Times, serif;
+
+        &:hover{
+            transform: scale(1.5);
+        }
+        .zoom-box {
+            width: auto;
+            height: 100px;
+        margin: 10px;
+            transition: transform .2s;
+        }
+      
+    }
+}

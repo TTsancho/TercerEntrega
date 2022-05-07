@@ -1,0 +1,42 @@
+
+  h1.titulo {
+    font-size: 84px;
+    @extend %titulos;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    h2 {
+        font-size: 42px;
+        color: aliceblue;
+    }
+    p {
+        font-size: 25px;
+        color: blanchedalmond;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    iframe{
+        display: grid;
+        grid-area: 2rem;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        grid: center;
+        }
+
+       
+         
+        @import 'Variables';
+        @import 'General';
+        @import 'operaciones';
+        @import 'condicionales';
+        @import 'maps';
+        @import 'extends';
+        @import 'mixins';
+
+
+        @import 'body';
+        @import 'nav';
+        @import 'footer';

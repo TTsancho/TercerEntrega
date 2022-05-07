@@ -1,0 +1,30 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.301);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin: auto;
+    display: flex;
+    flex: center;
+   justify-content: center;
+height: 100px;
+   a {
+        text-decoration: white;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+        .zoom-box {
+   
+            width: auto;
+            height: 100px;
+        margin: 10px;
+            transition: transform .5s; /* Animation */
+          }
+          
+          &:hover {
+            transform: scale(1.5);
+          }
+   }
+   }
